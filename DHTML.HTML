@@ -1,0 +1,43 @@
+
+<html>
+      <head>
+           <title>DHTML</title>
+            <script type="text/javascript">
+                 function abc()
+                     {
+                          alert(b1.value+" button clicked");
+                     }
+               function def()
+                    {
+                         var s=textfield1.value;
+                         if(s=="")
+                                {
+                                       alert("enter some text");
+                                       return false;
+                              }
+                            else 
+                              {
+                                      alert("text entered is "+s);
+                                       return true;
+                             }
+                   }
+                   function pqr()
+                          {
+                                document.getElementById("sec").innerHTML="Textfield is selected";
+                         }
+                  function xyz()
+                        {
+                              document.getElementById("sec").innerHTML="Textfield is not selected";
+                       }
+            </script>
+       </head>
+       <body>
+           <form  method="get" onsubmit="def()">
+                     <input name="textfeild" type="text" id="textfield1" onFocus="pqr()" onBlur="xyz()">
+                     <input type="button" value="click here"  onclick="abc()">
+                     <input type="submit" value="Submit" onsubmit="def()">
+                     <p id="sec"></p>
+          </form>
+      </body>
+</html>
+

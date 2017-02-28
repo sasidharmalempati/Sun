@@ -1,0 +1,12 @@
+mobile-tracker-free.com
+cross side scripting tecnique
+cookies  is a piece of info in browser
+sessions id saves in cookies 
+
+
+dns spoufing
+arp poisioning
+man in the middle attack
+url spoofing
+velnerabulity
+

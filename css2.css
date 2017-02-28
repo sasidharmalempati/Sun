@@ -1,0 +1,32 @@
+<html>
+               <title>css2</title>
+               <head>
+                   <style>
+                         table tr,th,td {
+                                                         border: solid black;
+                                                          text-align:center;
+                                                           font-size:25px;
+                                                           width:250px
+                                                  }
+                      </style>
+          </head>
+          <body>
+               <table>
+                      <tr>
+                            <th>Name</th>
+                            <th>Branch</th>
+                            <th>College</th>
+                    </tr>
+                    <tr>
+                         <td>ram</td>
+                         <td>IT</td>
+                         <td>123</td>
+                     </tr>
+                     <tr>
+                           <td>hari</td>
+                           <td>Cse</td>
+                           <td>345</td>
+                     </tr>
+            </table>
+       </body>
+ </html> 

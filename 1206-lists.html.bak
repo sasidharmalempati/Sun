@@ -1,0 +1,61 @@
+<html>
+	<title>12p61a1233-lists in html</title>
+	<body>
+		<center>
+		<font size="4">
+		<div style="float:left">
+			<h4>Ordered list</h4>
+			<small>Used to display list of items with Numbering/Ordering.<br>Also called "Numberd List"</small>
+			<hr>
+			<div style="background-color:white;height:180px;width:90px;float:left;">
+				(TYPE=1)<hr>
+				<ol type="1">
+					<li>it</li>
+					<li>cse</li>
+					<li>eee</li>
+					<li>mec</li>
+					<li>civil</li>
+				</ol>
+			</div>
+			
+			<div style="background-color:pink;height:180px;width:90px;float:left;">
+				(TYPE=i)<hr>
+				<ol type="i">
+					<li>it</li>
+					<li>cse</li>
+					<li>eee</li>
+					<li>mec</li>
+					<li>civil</li>
+				</ol>
+			</div>
+			<div style="background-color:white;height:180px;width:90px;float:left;">
+				(TYPE=a)<hr>
+				<ol type="a">
+					<li>it</li>
+					<li>cse</li>
+					<li>eee</li>
+					<li>mec</li>
+					<li>civil</li>
+				</ol>
+			</div>
+		</div>
+		
+		<div style="float:right">
+			<h4>Unordered List</h4>
+			<small>Used to display items as bulleted list.<br>Also called "Bulled List"</small>
+			<hr>
+			<div style="background-color:white;height:180px;width:95px;">
+				Bullets<hr>
+				<ul>
+					<li>it</li>
+					<li>cse</li>
+					<li>eee</li>
+					<li>mec</li>
+					<li>civil</li>
+				</ul>
+			</div>
+		</div>
+		
+		</font>
+	</body>
+</html>
